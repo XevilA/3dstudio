@@ -44,3 +44,6 @@ To work with this project, you will need:
     ```
 
 ## 👨‍💻 Author
+Tirawat Nantamas /Dotmini Software
+
+
