@@ -1,0 +1,295 @@
+Command line invocation:
+    /Applications/Xcode-beta.app/Contents/Developer/usr/bin/xcodebuild -scheme 3dstudio -project 3dstudio.xcodeproj clean build -sdk iphoneos -allowProvisioningUpdates
+
+Build settings from command line:
+    SDKROOT = iphoneos26.4
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+** CLEAN SUCCEEDED **
+
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (1 target)
+    Target '3dstudio' in project '3dstudio' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode-beta.app/Contents/Developer/usr/bin/actool --print-asset-tag-combinations --output-format xml1 /Users/dotmini/Documents/3dstudio/3dstudio/Assets.xcassets
+
+ExecuteExternalTool /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode-beta.app/Contents/Developer/usr/bin/actool --version --output-format xml1
+
+ExecuteExternalTool /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: 8a6d2d93c7bd39944aee768788a308bf
+Build description path: /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/XCBuildData/8a6d2d93c7bd39944aee768788a308bf.xcbuilddata
+ClangStatCache /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.sdk /Users/dotmini/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphoneos26.4-23E5207p-11708f5318cd587bfa37349fa7880338.sdkstatcache
+    cd /Users/dotmini/Documents/3dstudio/3dstudio.xcodeproj
+    /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.sdk -o /Users/dotmini/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphoneos26.4-23E5207p-11708f5318cd587bfa37349fa7880338.sdkstatcache
+
+CreateBuildDirectory /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Products
+    cd /Users/dotmini/Documents/3dstudio/3dstudio.xcodeproj
+    builtin-create-build-directory /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Products
+
+CreateBuildDirectory /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex
+    cd /Users/dotmini/Documents/3dstudio/3dstudio.xcodeproj
+    builtin-create-build-directory /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex
+
+CreateBuildDirectory /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+    cd /Users/dotmini/Documents/3dstudio/3dstudio.xcodeproj
+    builtin-create-build-directory /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/ExplicitPrecompiledModules
+    cd /Users/dotmini/Documents/3dstudio/3dstudio.xcodeproj
+    builtin-create-build-directory /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/ExplicitPrecompiledModules
+
+WriteAuxiliaryFile /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio-b27ca720bab70f7029aa3451bb693d45-VFS-iphoneos/all-product-headers.yaml
+    cd /Users/dotmini/Documents/3dstudio/3dstudio.xcodeproj
+    write-file /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio-b27ca720bab70f7029aa3451bb693d45-VFS-iphoneos/all-product-headers.yaml
+
+CreateBuildDirectory /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphoneos
+    cd /Users/dotmini/Documents/3dstudio/3dstudio.xcodeproj
+    builtin-create-build-directory /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphoneos
+
+CreateBuildDirectory /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Products/Debug-iphoneos
+    cd /Users/dotmini/Documents/3dstudio/3dstudio.xcodeproj
+    builtin-create-build-directory /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Products/Debug-iphoneos
+
+WriteAuxiliaryFile /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/empty-3dstudio.plist (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    write-file /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/empty-3dstudio.plist
+
+WriteAuxiliaryFile /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64/3dstudio_const_extract_protocols.json (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    write-file /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64/3dstudio_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64/3dstudio-OutputFileMap.json (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    write-file /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64/3dstudio-OutputFileMap.json
+
+WriteAuxiliaryFile /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64/3dstudio.SwiftConstValuesFileList (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    write-file /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64/3dstudio.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64/3dstudio.LinkFileList (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    write-file /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64/3dstudio.LinkFileList
+
+WriteAuxiliaryFile /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64/3dstudio.SwiftFileList (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    write-file /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64/3dstudio.SwiftFileList
+
+WriteAuxiliaryFile /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/DerivedSources/Entitlements.plist (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    write-file /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/DerivedSources/Entitlements.plist
+
+WriteAuxiliaryFile /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/3dstudio.hmap (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    write-file /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/3dstudio.hmap
+
+WriteAuxiliaryFile /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/3dstudio.DependencyStaticMetadataFileList (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    write-file /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/3dstudio.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/3dstudio.DependencyMetadataFileList (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    write-file /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/3dstudio.DependencyMetadataFileList
+
+WriteAuxiliaryFile /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/3dstudio-project-headers.hmap (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    write-file /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/3dstudio-project-headers.hmap
+
+WriteAuxiliaryFile /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/3dstudio-own-target-headers.hmap (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    write-file /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/3dstudio-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/3dstudio-generated-files.hmap (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    write-file /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/3dstudio-generated-files.hmap
+
+WriteAuxiliaryFile /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/3dstudio-all-target-headers.hmap (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    write-file /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/3dstudio-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/3dstudio-all-non-framework-target-headers.hmap (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    write-file /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/3dstudio-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/3dstudio-DebugDylibPath-normal-arm64.txt (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    write-file /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/3dstudio-DebugDylibPath-normal-arm64.txt
+
+WriteAuxiliaryFile /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/3dstudio-DebugDylibInstallName-normal-arm64.txt (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    write-file /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/3dstudio-DebugDylibInstallName-normal-arm64.txt
+
+MkDir /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Products/Debug-iphoneos/3dstudio.app (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    /bin/mkdir -p /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Products/Debug-iphoneos/3dstudio.app
+
+ProcessProductPackaging /Users/dotmini/Library/Developer/Xcode/UserData/Provisioning\ Profiles/3030b6a0-d45a-4666-9dba-f5942771eb25.mobileprovision /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Products/Debug-iphoneos/3dstudio.app/embedded.mobileprovision (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    builtin-productPackagingUtility /Users/dotmini/Library/Developer/Xcode/UserData/Provisioning\ Profiles/3030b6a0-d45a-4666-9dba-f5942771eb25.mobileprovision -o /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Products/Debug-iphoneos/3dstudio.app/embedded.mobileprovision
+
+ProcessProductPackaging "" /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/3dstudio.app.xcent (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    
+    Entitlements:
+    
+    {
+    "application-identifier" = "QW8Y74BD2U.dotmini.-dstudio";
+    "com.apple.developer.team-identifier" = QW8Y74BD2U;
+    "get-task-allow" = 1;
+}
+    
+    builtin-productPackagingUtility -entitlements -format xml -o /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/3dstudio.app.xcent
+
+ProcessProductPackagingDER /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/3dstudio.app.xcent /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/3dstudio.app.xcent.der (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    /usr/bin/derq query -f xml -i /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/3dstudio.app.xcent -o /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/3dstudio.app.xcent.der --raw
+
+Ld /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Products/Debug-iphoneos/3dstudio.app/__preview.dylib normal (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios26.4 -dynamiclib -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.sdk -O0 -L/Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Products/Debug-iphoneos -F/Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Products/Debug-iphoneos -install_name @rpath/3dstudio.debug.dylib -Xlinker -dead_strip -rdynamic -Xlinker -no_deduplicate -Xlinker -debug_variant -Xlinker -dependency_info -Xlinker /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64/3dstudio_dependency_info.dat -Xlinker -no_adhoc_codesign -o /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Products/Debug-iphoneos/3dstudio.app/__preview.dylib
+
+MkDir /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/assetcatalog_output/thinned (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    /bin/mkdir -p /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/assetcatalog_output/thinned
+
+GenerateAssetSymbols /Users/dotmini/Documents/3dstudio/3dstudio/Assets.xcassets (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    /Applications/Xcode-beta.app/Contents/Developer/usr/bin/actool /Users/dotmini/Documents/3dstudio/3dstudio/Assets.xcassets --compile /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Products/Debug-iphoneos/3dstudio.app --output-format human-readable-text --notices --warnings --export-dependency-info /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/assetcatalog_dependencies --output-partial-info-plist /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/assetcatalog_generated_info.plist --app-icon AppIcon --accent-color AccentColor --compress-pngs --enable-on-demand-resources YES --development-region en --target-device iphone --target-device ipad --minimum-deployment-target 26.4 --platform iphoneos --bundle-identifier dotmini.-dstudio --generate-swift-asset-symbols /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/DerivedSources/GeneratedAssetSymbols.swift --generate-objc-asset-symbols /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/DerivedSources/GeneratedAssetSymbols.h --generate-asset-symbol-index /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/DerivedSources/GeneratedAssetSymbols-Index.plist
+/* com.apple.actool.compilation-results */
+/Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/DerivedSources/GeneratedAssetSymbols-Index.plist
+/Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/DerivedSources/GeneratedAssetSymbols.h
+/Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/DerivedSources/GeneratedAssetSymbols.swift
+
+
+MkDir /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/assetcatalog_output/unthinned (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    /bin/mkdir -p /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/assetcatalog_output/unthinned
+
+CompileAssetCatalogVariant thinned /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Products/Debug-iphoneos/3dstudio.app /Users/dotmini/Documents/3dstudio/3dstudio/Assets.xcassets (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    /Applications/Xcode-beta.app/Contents/Developer/usr/bin/actool /Users/dotmini/Documents/3dstudio/3dstudio/Assets.xcassets --compile /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/assetcatalog_output/thinned --output-format human-readable-text --notices --warnings --export-dependency-info /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/assetcatalog_dependencies_thinned --output-partial-info-plist /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/assetcatalog_generated_info.plist_thinned --app-icon AppIcon --accent-color AccentColor --compress-pngs --enable-on-demand-resources YES --development-region en --target-device iphone --target-device ipad --minimum-deployment-target 26.4 --platform iphoneos
+/* com.apple.actool.compilation-results */
+/Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/assetcatalog_generated_info.plist_thinned
+
+
+LinkAssetCatalog /Users/dotmini/Documents/3dstudio/3dstudio/Assets.xcassets (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    builtin-linkAssetCatalog --thinned /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/assetcatalog_output/thinned --thinned-dependencies /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/assetcatalog_dependencies_thinned --thinned-info-plist-content /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/assetcatalog_generated_info.plist_thinned --unthinned /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/assetcatalog_output/unthinned --unthinned-dependencies /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/assetcatalog_dependencies_unthinned --unthinned-info-plist-content /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/assetcatalog_generated_info.plist_unthinned --output /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Products/Debug-iphoneos/3dstudio.app --plist-output /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/assetcatalog_generated_info.plist
+
+ProcessInfoPlistFile /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Products/Debug-iphoneos/3dstudio.app/Info.plist /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/empty-3dstudio.plist (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    builtin-infoPlistUtility /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/empty-3dstudio.plist -producttype com.apple.product-type.application -genpkginfo /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Products/Debug-iphoneos/3dstudio.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -additionalcontentfile /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/assetcatalog_generated_info.plist -requiredArchitecture arm64 -o /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Products/Debug-iphoneos/3dstudio.app/Info.plist
+
+SwiftDriver 3dstudio normal arm64 com.apple.xcode.tools.swift.compiler (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    builtin-SwiftDriver -- /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name _dstudio -Onone @/Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64/3dstudio.SwiftFileList -DDEBUG -default-isolation\=MainActor -enable-bare-slash-regex -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.sdk -target arm64-apple-ios26.4 -g -module-cache-path /Users/dotmini/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -profile-coverage-mapping -profile-generate -enable-testing -index-store-path /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Products/Debug-iphoneos -F /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Products/Debug-iphoneos -emit-localized-strings -emit-localized-strings-path /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64 -c -j8 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/dotmini/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphoneos26.4-23E5207p-11708f5318cd587bfa37349fa7880338.sdkstatcache -output-file-map /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64/3dstudio-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/dotmini/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/dotmini/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64/_dstudio.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/dotmini/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64/3dstudio_const_extract_protocols.json -Xcc -iquote -Xcc /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/3dstudio-generated-files.hmap -Xcc -I/Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/3dstudio-own-target-headers.hmap -Xcc -I/Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/3dstudio-all-target-headers.hmap -Xcc -iquote -Xcc /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/3dstudio-project-headers.hmap -Xcc -I/Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Products/Debug-iphoneos/include -Xcc -I/Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/DerivedSources-normal/arm64 -Xcc -I/Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/DerivedSources/arm64 -Xcc -I/Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64/_dstudio-Swift.h -working-directory /Users/dotmini/Documents/3dstudio -experimental-emit-module-separately -disable-cmo
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ _dstudio (in target '3dstudio' from project '3dstudio')
+
+EmitSwiftModule normal arm64 (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    
+
+SwiftCompile normal arm64 Compiling\ ARStudioView.swift /Users/dotmini/Documents/3dstudio/3dstudio/ARStudioView.swift (in target '3dstudio' from project '3dstudio')
+SwiftCompile normal arm64 /Users/dotmini/Documents/3dstudio/3dstudio/ARStudioView.swift (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    
+/Users/dotmini/Documents/3dstudio/3dstudio/ARStudioView.swift:161:52: error: argument 'height' must precede argument 'radius'
+            mesh = .generateCylinder(radius: 0.08, height: 0.2)
+                                     ~~~~~~~~~~~~~~^~~~~~~~~~~
+                                     height: 0.2,  
+/Users/dotmini/Documents/3dstudio/3dstudio/ARStudioView.swift:198:68: error: argument 'height' must precede argument 'radius'
+        let curveMesh = MeshResource.generateCylinder(radius: 0.5, height: 1.5)
+                                                      ~~~~~~~~~~~~~^~~~~~~~~~~
+                                                      height: 1.5,  
+/Users/dotmini/Documents/3dstudio/3dstudio/ARStudioView.swift:228:13: warning: immutable value 'i' was never used; consider replacing with '_' or removing it
+        for i in 0..<3 {
+            ^
+            _
+/Users/dotmini/Documents/3dstudio/3dstudio/ARStudioView.swift:250:68: error: argument 'height' must precede argument 'radius'
+        let lensMesh = MeshResource.generateCylinder(radius: 0.03, height: 0.06)
+                                                     ~~~~~~~~~~~~~~^~~~~~~~~~~~
+                                                     height: 0.06,  
+/Users/dotmini/Documents/3dstudio/3dstudio/ARStudioView.swift:256:67: error: argument 'height' must precede argument 'radius'
+        let legMesh = MeshResource.generateCylinder(radius: 0.01, height: offset.y)
+                                                    ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+                                                    height: offset.y,  
+
+Failed frontend command:
+/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -frontend -c /Users/dotmini/Documents/3dstudio/3dstudio/_dstudioApp.swift -primary-file /Users/dotmini/Documents/3dstudio/3dstudio/ARStudioView.swift /Users/dotmini/Documents/3dstudio/3dstudio/ContentView.swift /Users/dotmini/Documents/3dstudio/3dstudio/QRScannerView.swift /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/DerivedSources/GeneratedAssetSymbols.swift -emit-dependencies-path /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64/ARStudioView.d -emit-const-values-path /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64/ARStudioView.swiftconstvalues -emit-reference-dependencies-path /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64/ARStudioView.swiftdeps -serialize-diagnostics-path /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64/ARStudioView.dia -emit-localized-strings -emit-localized-strings-path /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64 -target arm64-apple-ios26.4 -module-can-import-version DeveloperToolsSupport 23.0.4 23.0.4 -module-can-import-version SwiftUI 7.4.19.1 7.4.19 -module-can-import-version UIKit 9126.4.20.1 9126.4.20 -disable-cross-import-overlay-search -swift-module-cross-import RealityKit /Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.sdk/System/Library/Frameworks/RealityKit.framework/Modules/RealityKit.swiftcrossimport/SwiftUI.swiftoverlay -load-resolved-plugin /Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libFoundationMacros.dylib\#/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#FoundationMacros -load-resolved-plugin /Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libObservationMacros.dylib\#/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#ObservationMacros -load-resolved-plugin /Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libPreviewsMacros.dylib\#/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#PreviewsMacros -load-resolved-plugin /Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libSwiftMacros.dylib\#/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#SwiftMacros -load-resolved-plugin /Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libSwiftUIMacros.dylib\#/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#SwiftUIMacros -disable-implicit-swift-modules -Xcc -fno-implicit-modules -Xcc -fno-implicit-module-maps -explicit-swift-module-map-file /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64/_dstudio-dependencies-1.json -debug-module-path /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64/_dstudio.swiftmodule -Xllvm -aarch64-use-tbi -enable-objc-interop -stack-check -sdk /Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.sdk -I /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Products/Debug-iphoneos -F /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Products/Debug-iphoneos -no-color-diagnostics -Xcc -fno-color-diagnostics -enable-testing -g -debug-info-format\=dwarf -dwarf-version\=5 -module-cache-path /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -profile-generate -profile-coverage-mapping -swift-version 5 -Onone -D DEBUG -serialize-debugging-options -const-gather-protocols-file /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64/3dstudio_const_extract_protocols.json -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -default-isolation\=MainActor -empty-abi-descriptor -validate-clang-modules-once -clang-build-session-file /Users/dotmini/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -working-directory -Xcc /Users/dotmini/Documents/3dstudio -enable-anonymous-context-mangled-names -file-compilation-dir /Users/dotmini/Documents/3dstudio -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -Xcc -ivfsstatcache -Xcc /Users/dotmini/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphoneos26.4-23E5207p-11708f5318cd587bfa37349fa7880338.sdkstatcache -Xcc -I/Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/3dstudio-generated-files.hmap -Xcc -I/Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/3dstudio-own-target-headers.hmap -Xcc -I/Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/3dstudio-all-target-headers.hmap -Xcc -iquote -Xcc /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/3dstudio-project-headers.hmap -Xcc -I/Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Products/Debug-iphoneos/include -Xcc -I/Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/DerivedSources-normal/arm64 -Xcc -I/Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/DerivedSources/arm64 -Xcc -I/Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/DerivedSources -Xcc -DDEBUG\=1 -no-auto-bridging-header-chaining -module-name _dstudio -frontend-parseable-output -disable-clang-spi -clang-target arm64-apple-ios26.4 -target-sdk-version 26.4 -target-sdk-name iphoneos26.4 -in-process-plugin-server-path /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/libSwiftInProcPluginServer.dylib -o /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64/ARStudioView.o -index-unit-output-path /3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64/ARStudioView.o -index-store-path /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Index.noindex/DataStore -index-system-modules
+SwiftCompile normal arm64 Compiling\ _dstudioApp.swift /Users/dotmini/Documents/3dstudio/3dstudio/_dstudioApp.swift (in target '3dstudio' from project '3dstudio')
+
+SwiftCompile normal arm64 /Users/dotmini/Documents/3dstudio/3dstudio/_dstudioApp.swift (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    
+
+SwiftCompile normal arm64 Compiling\ QRScannerView.swift /Users/dotmini/Documents/3dstudio/3dstudio/QRScannerView.swift (in target '3dstudio' from project '3dstudio')
+SwiftCompile normal arm64 /Users/dotmini/Documents/3dstudio/3dstudio/QRScannerView.swift (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    
+
+SwiftCompile normal arm64 Compiling\ GeneratedAssetSymbols.swift /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/DerivedSources/GeneratedAssetSymbols.swift (in target '3dstudio' from project '3dstudio')
+
+SwiftCompile normal arm64 /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/DerivedSources/GeneratedAssetSymbols.swift (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    
+
+SwiftCompile normal arm64 Compiling\ ContentView.swift /Users/dotmini/Documents/3dstudio/3dstudio/ContentView.swift (in target '3dstudio' from project '3dstudio')
+SwiftCompile normal arm64 /Users/dotmini/Documents/3dstudio/3dstudio/ContentView.swift (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    
+
+SwiftDriverJobDiscovery normal arm64 Compiling _dstudioApp.swift (in target '3dstudio' from project '3dstudio')
+
+SwiftDriverJobDiscovery normal arm64 Compiling GeneratedAssetSymbols.swift (in target '3dstudio' from project '3dstudio')
+
+SwiftDriverJobDiscovery normal arm64 Emitting module for _dstudio (in target '3dstudio' from project '3dstudio')
+
+SwiftDriver\ Compilation\ Requirements 3dstudio normal arm64 com.apple.xcode.tools.swift.compiler (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name _dstudio -Onone @/Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64/3dstudio.SwiftFileList -DDEBUG -default-isolation\=MainActor -enable-bare-slash-regex -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.sdk -target arm64-apple-ios26.4 -g -module-cache-path /Users/dotmini/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -profile-coverage-mapping -profile-generate -enable-testing -index-store-path /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Products/Debug-iphoneos -F /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Products/Debug-iphoneos -emit-localized-strings -emit-localized-strings-path /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64 -c -j8 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/dotmini/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphoneos26.4-23E5207p-11708f5318cd587bfa37349fa7880338.sdkstatcache -output-file-map /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64/3dstudio-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/dotmini/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/dotmini/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64/_dstudio.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/dotmini/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64/3dstudio_const_extract_protocols.json -Xcc -iquote -Xcc /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/3dstudio-generated-files.hmap -Xcc -I/Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/3dstudio-own-target-headers.hmap -Xcc -I/Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/3dstudio-all-target-headers.hmap -Xcc -iquote -Xcc /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/3dstudio-project-headers.hmap -Xcc -I/Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Products/Debug-iphoneos/include -Xcc -I/Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/DerivedSources-normal/arm64 -Xcc -I/Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/DerivedSources/arm64 -Xcc -I/Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64/_dstudio-Swift.h -working-directory /Users/dotmini/Documents/3dstudio -experimental-emit-module-separately -disable-cmo
+
+SwiftMergeGeneratedHeaders /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/DerivedSources/_dstudio-Swift.h /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64/_dstudio-Swift.h (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    builtin-swiftHeaderTool -arch arm64 /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64/_dstudio-Swift.h -o /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/DerivedSources/_dstudio-Swift.h
+
+Copy /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Products/Debug-iphoneos/_dstudio.swiftmodule/arm64-apple-ios.swiftmodule /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64/_dstudio.swiftmodule (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64/_dstudio.swiftmodule /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Products/Debug-iphoneos/_dstudio.swiftmodule/arm64-apple-ios.swiftmodule
+
+Copy /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Products/Debug-iphoneos/_dstudio.swiftmodule/arm64-apple-ios.abi.json /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64/_dstudio.abi.json (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64/_dstudio.abi.json /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Products/Debug-iphoneos/_dstudio.swiftmodule/arm64-apple-ios.abi.json
+
+Copy /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Products/Debug-iphoneos/_dstudio.swiftmodule/arm64-apple-ios.swiftdoc /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64/_dstudio.swiftdoc (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64/_dstudio.swiftdoc /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Products/Debug-iphoneos/_dstudio.swiftmodule/arm64-apple-ios.swiftdoc
+
+Copy /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Products/Debug-iphoneos/_dstudio.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64/_dstudio.swiftsourceinfo (in target '3dstudio' from project '3dstudio')
+    cd /Users/dotmini/Documents/3dstudio
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Intermediates.noindex/3dstudio.build/Debug-iphoneos/3dstudio.build/Objects-normal/arm64/_dstudio.swiftsourceinfo /Users/dotmini/Library/Developer/Xcode/DerivedData/3dstudio-afkgspzjwsubvhdpbbgqpzyustpp/Build/Products/Debug-iphoneos/_dstudio.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo
+
