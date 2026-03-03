@@ -1,0 +1,49 @@
+# =========================
+# 3D Model Files
+# =========================
+# Ignore Universal Scene Description files
+*.usdz
+*.usda
+*.usdc
+
+# =========================
+# iOS / Xcode Build Files
+# =========================
+# Build directories and artifacts
+build/
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# User-specific Xcode settings and state
+xcuserdata/
+*.xcuserstate
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Swift Package Manager
+.swiftpm/xcode/
+.build/
+
+# Crashlytics / Fabric
+*-[cC]rashlytics-[bB]uild.json
+
+# =========================
+# macOS Specific Files
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# =========================
+# Package Managers (Optional)
+# =========================
+# If you are using CocoaPods and want to ignore the downloaded pods:
+# Pods/
+
+# If you are using Carthage:
+# Carthage/Build/

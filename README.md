@@ -1,10 +1,17 @@
 # 3DStudio
 
-An iOS application and tooling suite designed for integrating, managing, and interacting with 3D models (USDZ), alongside utilities for PDF extraction and QR code generation.
+<p align="center">
+  <img src="https://img.shields.io/badge/platform-iOS-blue.svg" alt="Platform">
+  <img src="https://img.shields.io/badge/language-Swift-orange.svg" alt="Language">
+  <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License">
+</p>
+
+An **awesome** iOS application and tooling suite designed for integrating, managing, and interacting with 3D models (USDZ), alongside utilities for PDF extraction and QR code generation.
 
 ## 🚀 Features
 
 * **iOS Application:** Core iOS app built with Xcode (`3dstudio.xcodeproj`).
+* **Smooth Animations:** Beautiful, fluid animations throughout the app for an immersive 3D viewing experience.
 * **Automated 3D Model Integration:** Ruby scripts (`add_models.rb`, `add_usdz.rb`, `add_usdz_to_pbx.rb`) to automatically link `.usdz` 3D models into the Xcode project file without manual drag-and-drop.
 * **QR Code Generation:** Python utility (`gen_qr.py`) to generate QR codes, outputting to the `QRCodes/` directory.
 * **PDF Processing:** Python script (`extract_pdf.py`) for extracting data or assets from PDF documents (e.g., `รูปแบบการจัดสตูดิโอ.pdf`).
@@ -44,6 +51,7 @@ To work with this project, you will need:
     ```
 
 ## 👨‍💻 Author
-Tirawat Nantamas /Dotmini Software
+
+**Tirawat Nantamas** | *Dotmini Software*
 
 
